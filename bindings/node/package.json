@@ -12,8 +12,8 @@
     "name": "gatekeeper"
   },
   "scripts": {
-    "build": "napi build --platform --release",
-    "build:debug": "napi build --platform",
+    "build": "node init && napi build --platform --release",
+    "build:debug": "node init && napi build --platform",
     "test": "node test.js"
   },
   "devDependencies": {

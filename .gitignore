@@ -1,2 +1,4 @@
 /target
 *.node
+config.bat
+node_modules
